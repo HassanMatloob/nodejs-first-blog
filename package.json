@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-first-blog",
+  "version": "1.0.0",
+  "description": "Create a Blog using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [
+    "blog"
+  ],
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "express-edge": "^2.0.2",
+    "express-fileupload": "^1.4.0",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20",
+    "startbootstrap-clean-blog": "^6.0.8"
+  }
+}
